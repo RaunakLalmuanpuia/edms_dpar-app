@@ -4,8 +4,8 @@
         <q-header height-hint="90"  :class="classObject">
             <q-toolbar  class="container flex justify-between items-center" style="height: 80px">
                 <div class="flex items-center q-gutter-sm cursor-pointer" @click="$inertia.get(route('home'))">
-                    <q-img width="60px" src="/images/phed_logo.png" />
-                    <p v-if="$q.screen.gt.sm" class="text-primary">PUBLIC HEALTH ENGINEERING DEPARTMENT : MIZORAM</p>
+                    <q-img width="40px" src="/images/National-Emblem.png" />
+                    <p v-if="$q.screen.gt.sm" class="text-primary">DEPARTMENT OF PERSONNEL AND ADMINISTRATIVE REFORMS : MIZORAM</p>
                 </div>
 
                 <div class="flex items-center q-gutter-md">
@@ -34,7 +34,7 @@
 
 
                 <div class="column items-end">
-                    <div>© 2025 EDMS-PHED (GoM). All rights reserved</div>
+                    <div>© 2025 EDMS-DPAR (GoM). All rights reserved</div>
                     <div class="flex q-gutter-sm">
                         <a class="footer-link" :href="route('page.contact')">Contact Us</a>
                         <a class="footer-link" :href="route('page.privacy')">Privacy Policy</a>

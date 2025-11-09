@@ -15,7 +15,7 @@ const slide = ref(1);
 
                         <div class="hero-title">Employees Database Management System</div>
                         <p class="home-caption">
-                            Access employee records, departmental roles, and workplace for the PHED department. Built for speed and simplicity.
+                            Access employee records, departmental roles, and workplace for the DPAR department. Built for speed and simplicity.
                         </p>
                     </div>
                 </div>
