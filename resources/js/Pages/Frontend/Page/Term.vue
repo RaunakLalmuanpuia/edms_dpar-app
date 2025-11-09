@@ -4,11 +4,11 @@
 
         <div>
             <p>
-                Collection of personal information is carried out on this site as part of the Employee Database Management System (EDMS) of the Public Health Engineering Department (PHED). Personal information includes data that can be used to uniquely identify or contact an individual employee. The PHED EDMS collects several types of personal information from and about users, including employee name, designation, office, address, date of birth, contact details, employment details, and other official information necessary for maintaining accurate employee records.
+                Collection of personal information is carried out on this site as part of the Employee Database Management System (EDMS) of the Department of Personnel and Administrative Reforms (DPAR). Personal information includes data that can be used to uniquely identify or contact an individual employee. The DPAR EDMS collects several types of personal information from and about users, including employee name, designation, office, address, date of birth, contact details, employment details, and other official information necessary for maintaining accurate employee records.
             </p>
 
             <p>
-                The Public Health Engineering Department may also collect non-personal information or data in a form that cannot be used to uniquely identify or contact an individual. Such information may include system usage data, login activity, and statistical information related to employee record management. This non-personal information is used to enhance system performance, security, and overall user experience within the EDMS.
+                The Department of Personnel and Administrative Reforms (DPAR) may also collect non-personal information or data in a form that cannot be used to uniquely identify or contact an individual. Such information may include system usage data, login activity, and statistical information related to employee record management. This non-personal information is used to enhance system performance, security, and overall user experience within the EDMS.
             </p>
 
             <p>
@@ -16,7 +16,7 @@
             </p>
 
             <p>
-                The Public Health Engineering Department has implemented appropriate technical and organizational measures to secure personal and official information from unauthorized access, misuse, alteration, or disclosure. Users are also responsible for maintaining the confidentiality of their login credentials and ensuring that any personal or departmental data entered into the system is accurate and used for official purposes only.
+                The Department of Personnel and Administrative Reforms (DPAR) has implemented appropriate technical and organizational measures to secure personal and official information from unauthorized access, misuse, alteration, or disclosure. Users are also responsible for maintaining the confidentiality of their login credentials and ensuring that any personal or departmental data entered into the system is accurate and used for official purposes only.
             </p>
 
             <p>
@@ -24,7 +24,7 @@
             </p>
 
             <p>
-                For any queries or concerns related to data privacy or the functioning of the Employee Database Management System, users may contact the Public Health Engineering Department, Government of Mizoram.
+                For any queries or concerns related to data privacy or the functioning of the Employee Database Management System, users may contact the Department of Personnel and Administrative Reforms (DPAR), Government of Mizoram.
             </p>
 
             <p>

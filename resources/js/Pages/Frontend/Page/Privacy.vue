@@ -4,7 +4,7 @@
 
         <div>
             <p>
-                The Employee Database Management System (EDMS) of the Public Health Engineering Department (PHED) respects the privacy of all its users. This policy explains how we collect, use, and protect your personal information.
+                The Employee Database Management System (EDMS) of the Department of Personnel and Administrative Reforms (DPAR) respects the privacy of all its users. This policy explains how we collect, use, and protect your personal information.
             </p>
 
             <p>
@@ -24,7 +24,7 @@
             </p>
 
             <p>
-                For any questions regarding this privacy policy, please contact the Public Health Engineering Department, Government of Mizoram.
+                For any questions regarding this privacy policy, please contact the Department of Personnel and Administrative Reforms (DPAR), Government of Mizoram.
             </p>
         </div>
     </q-page>

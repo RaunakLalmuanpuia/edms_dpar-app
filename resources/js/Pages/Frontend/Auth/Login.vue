@@ -4,7 +4,7 @@
             <div class="row ">
 
                 <div v-if="$q.screen.gt.sm" class="col-xs-12 col-sm-6">
-                    <q-img height="480" width="580" style="height: 600px;" src="images/login.png"/>
+                    <q-img height="480" width="480" src="images/emblem.png"/>
                 </div>
 
                 <div class="col-xs-12 col-sm-6 flex items-center justify-center"
@@ -17,7 +17,7 @@
                         <q-form
                             style="max-width: 450px"
                             v-else
-                            class="column q-gutter-sm q-my-lg q-pa-lg rounded-lg shadow-2 bg-gray-100 text-gray-900"
+                            class="column q-gutter-sm q-my-lg q-pa-lg rounded-lg shadow-2 "
                             @submit="handleSubmit"
                         >
                             <p class="login-title text-xl font-semibold">Employees Database Management System</p>
@@ -117,7 +117,7 @@ const handleSubmit=e=>{
 }
 
 .form-bg {
-    background: url('/images/river.jpg') no-repeat center center;
-    background-size: cover;
+    background: transparent;
+
 }
 </style>
