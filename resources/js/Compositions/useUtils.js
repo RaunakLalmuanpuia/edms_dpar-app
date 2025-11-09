@@ -6,31 +6,31 @@ export default function () {
     }
 
    // Output-  09 Sep 2025
-    // const formatDate = (value, pattern) => {
-    //     try {
-    //         if (!value) return 'N/A'   // ✅ handle null/undefined/empty
-    //         if (pattern) {
-    //             return date.formatDate(new Date(value), pattern)
-    //         }
-    //         return date.formatDate(new Date(value), 'DD MMM YYYY')
-    //     } catch (er) {
-    //         return 'Invalid Date'
-    //     }
-    // }
-
-    // Output - 09-09-2025
     const formatDate = (value, pattern) => {
         try {
             if (!value) return 'N/A'   // ✅ handle null/undefined/empty
             if (pattern) {
                 return date.formatDate(new Date(value), pattern)
             }
-            // Default to dd-mm-yyyy
-            return date.formatDate(new Date(value), 'DD-MM-YYYY')
+            return date.formatDate(new Date(value), 'DD MMM YYYY')
         } catch (er) {
             return 'Invalid Date'
         }
     }
+
+    // Output - 09-09-2025
+    // const formatDate = (value, pattern) => {
+    //     try {
+    //         if (!value) return 'N/A'   // ✅ handle null/undefined/empty
+    //         if (pattern) {
+    //             return date.formatDate(new Date(value), pattern)
+    //         }
+    //         // Default to dd-mm-yyyy
+    //         return date.formatDate(new Date(value), 'DD-MM-YYYY')
+    //     } catch (er) {
+    //         return 'Invalid Date'
+    //     }
+    // }
 
     const formatAudioTime = secs => {
         let minutes = Math.floor(secs / 60) || 0;

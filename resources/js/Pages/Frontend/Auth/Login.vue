@@ -4,7 +4,7 @@
             <div class="row ">
 
                 <div v-if="$q.screen.gt.sm" class="col-xs-12 col-sm-6">
-                    <q-img height="480" width="480" src="images/emblem.png"/>
+                    <q-img height="480" width="480" src="images/20943394.jpg"/>
                 </div>
 
                 <div class="col-xs-12 col-sm-6 flex items-center justify-center"

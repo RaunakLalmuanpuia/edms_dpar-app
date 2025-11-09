@@ -147,6 +147,22 @@ class EmployeeSeeder extends Seeder
             }
         });
 
+
+//        // Seed Documents for each employee
+        $allEmployees->each(function ($employee) use ($docTypes) {
+            foreach ($docTypes->random(2) as $docType) {
+                Document::create([
+                    'document_type_id' => $docType->id,
+                    'employee_id' => $employee->id,
+                    'mime' => 'application/pdf',
+                    'path' => 'uploads/documents/sample.pdf',
+                    'name' => $docType->name . ' - ' . $employee->name,
+                    'type' => 'identity',
+                    'upload_date' => Carbon::now()->toDateString(),
+                ]);
+            }
+        });
+
         /**
          * ---------------------------------------------------------
          * TRANSFER HISTORY FOR ALL EMPLOYEES
