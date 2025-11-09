@@ -14,7 +14,6 @@ const employeeByOfficeChartData = ref({
 const state = reactive({
     offices: [],
 })
-
 const options = ref({
     responsive: true,
     maintainAspectRatio: false,
@@ -36,6 +35,8 @@ const options = ref({
         x: {
             ticks: {
                 padding: 10,
+                maxRotation: 75,   // rotate labels vertically
+                minRotation: 75,   // force full vertical rotation
             },
         },
         y: {
@@ -43,7 +44,6 @@ const options = ref({
         },
     },
 })
-
 
 
 onMounted(()=>{

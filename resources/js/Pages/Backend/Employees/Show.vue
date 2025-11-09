@@ -284,7 +284,7 @@
 
                         <div class="row q-col-gutter-md">
                             <div class="col-12 col-md-6">
-                                <Remuneration v-if="data.employment_type === 'PE'" :data="data" :canCreateRemuneration="canCreateRemuneration"/>
+                                <Remuneration v-if="data.employment_type === 'PE' || data.employment_type === 'WC' " :data="data" :canCreateRemuneration="canCreateRemuneration"/>
                                 <Transfer :data="data" :office="office" :canCreateTransfer="canCreateTransfer" :canDeleteTransfer="canDeleteTransfer" />
                             </div>
 
